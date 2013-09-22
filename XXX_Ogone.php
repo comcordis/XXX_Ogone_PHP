@@ -37,7 +37,7 @@ abstract class XXX_Ogone
 	public static $paymentDeclinedURI = '';
 	
 	// http://www.example.com/payment-service-provider/ogone/payment-exception
-	public static $paymentExpectionURI = '';
+	public static $paymentExceptionURI = '';
 	
 	// http://www.example.com/payment-service-provider/ogone/payment-cancelled
 	public static $paymentCancelledURI = '';
