@@ -249,10 +249,6 @@ abstract class XXX_Ogone
 	Hash: SHA-512
 	
 	Encoding: UTF-8
-	
-	SHA-IN encryption: yourairporttransfer2013
-	
-	SHA-OUT encryption: yourairporttransfer2013
 		
 	*/	
 	
@@ -274,7 +270,11 @@ abstract class XXX_Ogone
 		$result['BACKURL'] = $backURI;
 		$result['HOMEURL'] = $homeURI;
 		$result['CATALOGURL'] = $bookARideURI;
-		$result['TP'] = $dynamicTemplateURI;
+		
+		if ($dynamicTemplateURI != '')
+		{
+			$result['TP'] = $dynamicTemplateURI;
+		}
 				
 		if ($fullName != '')
 		{
