@@ -1,0 +1,6 @@
+project:XXX_Ogone_PHP
+deployEnvironment:development
+checkout:master
+commitHash:3fda1ce07ae93eeecff0b2aea23140883fe0569a
+timestamp:2015-04-13T09:44:57Z
+deployer:operations
